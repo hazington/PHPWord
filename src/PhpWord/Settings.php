@@ -386,7 +386,7 @@ class Settings
      */
     public static function setDefaultFontSize($value)
     {
-        $value = (int) $value;
+        $value = (float) $value;
         if ($value > 0) {
             self::$defaultFontSize = $value;
 
